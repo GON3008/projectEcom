@@ -3,10 +3,15 @@ namespace App\Models\Client;
 
 use App\Models\BaseModel;
 class tinTuc extends BaseModel {
-    public function tintuc() {
-        $sql = "SELECT * FROM tin_tuc";
-        $this->setQuery($sql);
-        $this->execute();
-        return $this->fetchAll();
+    function Tintuc() {
+        // lấy dữ liệu từ model
+        $model = new TinTuc();
+        $data = $model->getAll();
+        
+        // hiển thị view
+        $this->render('client.tintuc', ['data' => $data]);
     }
+    
 }
+
+

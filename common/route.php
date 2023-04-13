@@ -1,5 +1,5 @@
 <?php
-
+require_once 'vendor/autoload.php';
 use Phroute\Phroute\RouteCollector;
 use App\Controllers\Admin\LoaiController;
 use App\Controllers\Admin\SanPhamController;
@@ -32,7 +32,7 @@ $router->get('/',[TrangChuController::class,'trangChu']);
 $router->get('404',[NguoiDungController::class,'vaiTroFalse']);
 
 //tin tuc
-$router->get('tin-tuc',[tinTucController::class,'tintuc']);
+$router->get('tin-tuc',[tinTucController::class, 'TinTuc']);
 
 //Lien he'
 $router->get('lienhe',[TrangController::class,'hienThi']);
@@ -130,6 +130,9 @@ $response = $dispatcher->dispatch($_SERVER['REQUEST_METHOD'], $url);
 
 // Print out the value returned from the dispatched function
 echo $response;
-
+function init() {
+    global $router;
+    $router->run();
+}
 
 ?>
