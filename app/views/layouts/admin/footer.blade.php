@@ -3,7 +3,7 @@
     <div class="bg-light rounded-top p-4">
         <div class="row">
             <div style="text-align: center">
-                &copy; <a href="https://www.facebook.com/Phamduc2003xxx">phamduc1823</a> All Right Reserved.
+              Copyright  &copy; <a href="#">2023</a> All Right Reserved.
             </div>
         </div>
     </div>

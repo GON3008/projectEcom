@@ -60,10 +60,10 @@
                     <div class="axil-footer-widget">
                         <h5 class="widget-title">Liên hệ</h5>
                         <div class="inner">
-                            <p>Tòa P
-                                Tòa nhà FPT Polytechnic, <br>
-                                P. Trịnh Văn Bô, Xuân Phương, <br>
-                                Nam Từ Liêm, Hà Nội, Việt Nam
+                            <p>
+                                <br>
+                                 <br>
+
                             </p>
                             <ul class="support-list-item">
                                 <li><a href="mailto:example@domain.com"><i class="fal fa-envelope-open"></i>
@@ -132,7 +132,7 @@
                 <div class="col-xl-4 col-lg-12">
                     <div class="copyright-left d-flex flex-wrap justify-content-center">
                         <ul class="quick-link">
-                            <li>© 2023. All rights reserved by <a target="_blank" href="">PH20653</a>.</li>
+                            <li>Copyright © 2023. All rights reserved by <a target="_blank" href="">eTrade</a>.</li>
                         </ul>
                     </div>
                 </div>
